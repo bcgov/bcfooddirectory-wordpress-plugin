@@ -1,4 +1,4 @@
-# Contributing to WordPress Plugin Template
+# Contributing to the BC Food Directory WordPress Plugin
 
 Thank you for considering contributing to this project! We welcome contributions from everyone. Please follow these guidelines to help us maintain a high-quality codebase.
 
@@ -8,7 +8,7 @@ Thank you for considering contributing to this project! We welcome contributions
   Create your own fork and work on your changes there.
 
 2. **Create a Branch**
-  Use a descriptive branch name (e.g., `feature/add-new-widget`).
+  Use a descriptive branch name (e.g., `feature/{JIRA ticket number}_add-new-widget`).
 
 3. **Make Changes**
   Ensure your code follows our coding standards and includes relevant documentation and tests.
@@ -40,7 +40,7 @@ If you find a bug or have a feature request, please open an issue and provide as
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under the project's license.
+By contributing, you agree that your contributions will be licensed under the project's [license](LICENCE).
 
 ---
 
