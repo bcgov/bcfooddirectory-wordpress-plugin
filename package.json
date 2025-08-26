@@ -1,7 +1,7 @@
 {
-  "name": "bcgov-wordpress-plugin-template",
+  "name": "bcfooddirectory-wordpress-plugin",
   "version": "1.0.0",
-  "description": "BCGov WordPress Plugin Template",
+  "description": "BC Food Directory Plugin",
   "author": "govwordpress@gov.bc.ca",
   "license": "GPL-2.0-or-later",
   "keywords": [

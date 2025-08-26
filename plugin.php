@@ -1,20 +1,20 @@
 <?php
 /**
- * Plugin Name: {Plugin Name}
- * Plugin URI: https://github.com/bcgov/{plugin-name}
+ * Plugin Name: BC Food Directory
+ * Plugin URI: https://github.com/bcgov/bcfooddirectory-wordpress-plugin.git
  * Author: govwordpress@gov.bc.ca
- * Author URI: {JIRA Epic URL}
- * Description: WordPress {plugin-name} plugin is a plugin that adds custom functionality to your WordPress site.
+ * Author URI: https://citz-gdx.atlassian.net/browse/DESCW-3149
+ * Description: WordPress bc food directory plugin is a plugin that adds custom functionality to the BC Food Directory website.
  * Requires at least: 6.4.4
  * Tested up to: 6.5
  * Requires PHP: 7.4
  * Version: 1.0.0
  * License: Apache License Version 2.0
  * License URI: LICENSE
- * Text Domain: {plugin-name}
+ * Text Domain: BCFoodDirectoryWordpressPlugin
  * Tags:
  *
- * @package {PluginName}
+ * @package BCFoodDirectoryWordpressPlugin
  */
 
 /**
@@ -25,14 +25,14 @@
  * 3. Update composer.json autoload section to match your chosen namespace
  * 4. Create your class file in: src/{ClassName}.php
  */
-use Bcgov\PluginName\ClassName;
+use Bcgov\BCFoodDirectoryPlugin\ClassName;
 
 $autoloader = __DIR__ . '/vendor/autoload.php';
 if ( file_exists( $autoloader ) ) {
     require_once $autoloader;
 }
 
-if ( ! class_exists( 'Bcgov\\{PluginName}\\{ClassName}' ) ) {
+if ( ! class_exists( 'Bcgov\\BCFoodDirectoryPlugin\\{ClassName}' ) ) {
     return;
 }
 
