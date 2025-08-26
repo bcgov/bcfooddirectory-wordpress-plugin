@@ -1,6 +1,6 @@
 {
-    "name": "bcgov/wordpress-plugin",
-    "description": "{Plugin Name} Plugin",
+    "name": "bcgov-plugin/bcfooddirectory",
+    "description": "BC Food Directory Plugin",
     "type": "wordpress-plugin",
     "license": "Apache-2.0",
     "repositories": [

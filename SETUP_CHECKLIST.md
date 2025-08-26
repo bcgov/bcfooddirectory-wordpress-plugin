@@ -1,6 +1,8 @@
-- [ ] main branch is default
-- [ ] branch protection rules (1 approver, no stale PR, require codeowners)
-- [ ] CODEOWNERS setup
+# SETUP CHECKLIST
+
+- [x] main branch is default
+- [x] branch protection rules (1 approver, no stale PR, require codeowners)
+- [x] CODEOWNERS setup
 - [ ] README.md updated to reflect feature/functionality
 - [ ] linter and code validations workflows are setup (js/css/php)
 - [ ] tests workflows (js/php)
@@ -10,4 +12,4 @@
 - [ ] CONTRIBUTING.md
 - [ ] CODE_OF_CONDUCT.md
 - [ ] user groups are setup (devs/admins) no individual users should be included
-- [ ] Repo Topics (minimum setup) CITZ, PHP, wordpress, wordpress-plugin, bcgov, gutenberg
+- [x] Repo Topics (minimum setup) CITZ, PHP, wordpress, wordpress-plugin, bcgov, gutenberg
