@@ -33,6 +33,7 @@ vendor
 
 .DS_Store
 
+.vscode/
 
 # documentation
 documentation/docs/.vuepress/.temp
