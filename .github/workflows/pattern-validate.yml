@@ -1,0 +1,9 @@
+name: WordPress Pattern Validation
+permissions:
+  contents: read
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  pattern-validation:
+    # temporary using main until 1.1.0 is available
+    uses: bcgov/des-git-workflows/.github/workflows/pattern-validate.yml@main
