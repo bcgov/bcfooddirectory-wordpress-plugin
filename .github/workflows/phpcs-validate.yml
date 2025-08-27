@@ -2,11 +2,15 @@ name: PHPCS Validation
 permissions:
   contents: read
 on:
-  pull_request:
   workflow_dispatch:
+  push:
+    paths:
+      - "!vendor/**"
+      - "!dist/**"
+  pull_request:
     paths:
       - "!vendor/**"
       - "!dist/**"
 jobs:
   phpcs-validation:
-    uses: bcgov/des-git-workflows/.github/workflows/phpcs-validate.yml@main
+    uses: bcgov/des-git-workflows/.github/workflows/phpcs-validate.yml@1.0.0
