@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-          "Bcgov\\{PluginName}\\": "src/"
+          "Bcgov\\BCFoodDirectoryWordpressPlugin\\": "src/"
         }
     },
     "scripts": {
