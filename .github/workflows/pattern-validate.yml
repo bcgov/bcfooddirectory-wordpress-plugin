@@ -5,4 +5,5 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   pattern-validation:
-    uses: bcgov/des-git-workflows/.github/workflows/pattern-validate.yml@bug/DESCW-3169_exit-pattern-validate-early
+    # temporary using main until 1.1.0 is available
+    uses: bcgov/des-git-workflows/.github/workflows/pattern-validate.yml@main
