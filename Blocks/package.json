@@ -21,21 +21,23 @@
 		"test:e2e": "wp-scripts test-e2e --passWithNoTests",
 		"test:unit": "wp-scripts test-unit-js --passWithNoTests",
 		"test": "npm run test:unit"
-
 	},
 	"devDependencies": {
-		"@wordpress/scripts": "^30.3.0",
-		"@bcgov/wordpress-eslint": "git+https://github.com/bcgov/wordpress-eslint.git#semver:1.x",
-		"@bcgov/wordpress-stylelintrc": "git+https://github.com/bcgov/wordpress-stylelintrc.git#semver:1.x",
-		"prettier": "^2.2.0"
+		"@bcgov/wordpress-eslint": "github:bcgov/wordpress-eslint#semver:1.x",
+		"@bcgov/wordpress-stylelintrc": "github:bcgov/wordpress-stylelintrc#semver:1.x",
+		"@wordpress/scripts": "^30.27.0",
+		"prettier": "^2.8.8"
+	},
+	"engines": {
+		"node": ">=22.21.0 <23.0.0"
 	},
 	"dependencies": {
-		"@wordpress/block-editor": "^14.5.0",
-		"@wordpress/blocks": "^13.10.0",
-		"@wordpress/components": "^28.10.0",
-		"@wordpress/core-data": "",
-		"@wordpress/data": "",
-		"@wordpress/element": "",
-		"@wordpress/i18n": ""
+		"@wordpress/block-editor": "^15.7.0",
+		"@wordpress/blocks": "^15.7.0",
+		"@wordpress/components": "^30.7.0",
+		"@wordpress/core-data": "^7.34.0",
+		"@wordpress/data": "^10.34.0",
+		"@wordpress/element": "^6.34.0",
+		"@wordpress/i18n": "^6.7.0"
 	}
 }
